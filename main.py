@@ -10,7 +10,7 @@ from utils.file_utils import sanitize_filename, ensure_directory_exists
 from utils.validation import validate_url, detect_platform
 from utils.punctuation_utils import process_transcription
 import subprocess
-
+#12345
 
 def setup_environment() -> bool:
     """Настройка окружения перед запуском"""
