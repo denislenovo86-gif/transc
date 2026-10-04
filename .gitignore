@@ -1,0 +1,47 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.spec
+
+# Настройки IDE
+.idea/
+.vscode/
+
+# Временные файлы проекта
+audio/
+transcriptions/
+videos/
+uploads/
+
+# Секреты
+.env
+
+# Сборка
+build/
+dist/
+installer/
+
+# 🔥 FFmpeg и Vosk — большие бинарники, не нужны в Git
+ffmpeg-master-latest-win64-gpl/
+vosk-model-small-ru-0.22/
+transc-desktop/vosk/
+transc-desktop/vosk_lib/
+transc-desktop/vosk_dlls/
+transc-desktop/vosk-model-small-ru-0.22/
+
+# 🔥 Готовые .exe
+static/*.exe
+*.exe
+*.dll
+
+# Батники сборки
+transc-desktop/build.bat
+
+# Дублирующиеся папки
+transc-desktop/services/
+transc-desktop/utils/
+transc-desktop/config.py

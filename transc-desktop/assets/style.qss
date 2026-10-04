@@ -1,0 +1,207 @@
+/* ============================================
+   TranscribeFlow — Qt Style Sheets
+   ============================================ */
+
+/* ── Main Window ── */
+QMainWindow {
+    background: #0a0a1a;
+}
+
+QLabel {
+    color: white;
+}
+
+/* ── Input Glass Card ── */
+#input-glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+/* ── Input Row ── */
+#input-row {
+    spacing: 12px;
+}
+
+#field-wrapper {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+
+#url-input {
+    background: transparent;
+    border: none;
+    padding: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+#url-input:focus {
+    color: #fff;
+}
+
+#action-button {
+    border: none;
+    border-radius: 12px;
+    padding: 12px 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #6C63FF, stop:1 #FF6B6B);
+}
+
+#action-button:hover {
+    opacity: 0.9;
+}
+
+#action-button:disabled {
+    opacity: 0.5;
+}
+
+/* ── Input Footer ── */
+#input-footer {
+    spacing: 12px;
+}
+
+#checkbox-group {
+    spacing: 10px;
+}
+
+#checkbox-group QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#checkbox-group QCheckBox::indicator:checked {
+    background: #6C63FF;
+}
+
+#checkbox-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Inter', sans-serif;
+}
+
+#platform-hint {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Inter', sans-serif;
+}
+
+#badge-youtube {
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    background: rgba(255, 0, 0, 0.13);
+    color: #FF4444;
+}
+
+#badge-rutube {
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    background: rgba(0, 229, 255, 0.13);
+    color: #00E5FF;
+}
+
+#badge-vk {
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    background: rgba(0, 119, 255, 0.13);
+    color: #0077FF;
+}
+
+/* ── Progress Bar ── */
+QProgressBar {
+    background: rgba(255, 255, 255, 0.06);
+    border: none;
+    border-radius: 10px;
+    height: 8px;
+}
+
+QProgressBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #6C63FF, stop:1 #FF6B6B);
+    border-radius: 10px;
+}
+
+/* ── Result Panels ── */
+#result-panel {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    padding: 12px;
+}
+
+#result-panel QLabel {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#result-panel QTextEdit {
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+    font-family: 'Courier New', monospace;
+}
+
+#corrected-panel {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    padding: 12px;
+}
+
+#corrected-panel QLabel {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#corrected-panel QTextEdit {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ── Buttons ── */
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+/* ── Footer ── */
+.footer {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 12px;
+    text-align: center;
+}
