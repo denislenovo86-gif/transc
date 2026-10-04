@@ -63,4 +63,11 @@
 
 
 Pritvor
+## Лицензия
+
+MIT License
+
+## Контакты
+
+Email: den.mixajlovskij.06@mail.ru
 
