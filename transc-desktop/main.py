@@ -78,7 +78,7 @@ from utils.punctuation_utils import process_transcription
 from PySide6.QtWidgets import *
 from PySide6.QtCore import *
 from PySide6.QtGui import *
-
+# комментарий для выполнения 3 лабы
 
 # ============================================
 # ГРАДИЕНТНЫЙ ТЕКСТ
